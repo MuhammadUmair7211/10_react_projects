@@ -1,0 +1,38 @@
+nav {
+    max-width: 1440px;
+    padding: 0 2rem;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+nav li:hover {
+    background-color: #f0f0f0;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}

@@ -1,0 +1,181 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 0 2rem;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav-link {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-link li {
+  text-transform: uppercase;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link a:hover {
+  background-color: #f0f0f0;
+}
+
+.login-btn {
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  background-color: darkcyan;
+  border: none;
+  color: #f0f0f0;
+}
+
+.login-btn:hover {
+  background-color: rgb(6, 156, 156);
+}
+
+.hero-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.hero {
+  width: 50%;
+  padding: 1rem 2rem;
+}
+
+.hero-text {
+  margin-top: 5rem;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.hero-para {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.btn {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.started-btn {
+  background-color: skyblue;
+}
+
+.order-btn {
+  background-color: red;
+  color: #f0f0f0;
+}
+
+.btn button {
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  width: 300px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: none;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  list-style-type: none;
+  z-index: 999;
+}
+
+#bars {
+  display: none;
+}
+
+.sidebar i {
+  font-size: 24px;
+  margin: 2rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar li {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+}
+
+.sidebar li:hover {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 800px) {
+  .hero-section {
+    display: block;
+    max-width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero-para {
+    line-height: 1.7rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  #bars {
+    display: block;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+li{
+  margin-top: 2rem;
+  list-style: none;
+}
+li button{
+  margin-left: 1rem;
+}
