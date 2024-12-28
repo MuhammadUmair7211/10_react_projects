@@ -18,8 +18,7 @@ const Login = () => {
 					<img src="/images/apple-logo.png" alt="google" className="w-6 mr-2" />
 					Sign in with Apple
 				</button>
-				<button className="flex items-center justify-center border border-gray-300  w-full py-2 mt-6">
-					<img src="/images/apple-logo.png" alt="google" className="w-6 mr-2" />
+				<button className="border border-gray-300  w-full py-2 mt-6">
 					Phone email or username
 				</button>
 				<button className="border border-gray-300 bg-black text-white rounded-3xl w-full py-2 mt-6 hover:bg-white hover:text-black transition-all">
